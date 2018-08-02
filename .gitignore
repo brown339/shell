@@ -1,1 +1,5 @@
 node_modules
+public/app/*
+public/footer/*
+public/header/*
+public/dist/*

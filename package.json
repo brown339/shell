@@ -5,12 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "gulp",
+    "watch": "gulp watch"
   },
   "author": "John Brown",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.16.4",
-    "webpack-cli": "^3.1.0"
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8"
   }
 }
