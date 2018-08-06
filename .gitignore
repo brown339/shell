@@ -4,3 +4,4 @@ public/footer/*
 public/header/*
 public/dist/*
 .DS_Store
+.gitmodules
